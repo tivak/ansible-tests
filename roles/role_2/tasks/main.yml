@@ -1,0 +1,8 @@
+- debug:
+    var: dafault_inventory
+- debug:
+    var: dafault_var
+- debug:
+    var: role_var
+- debug:
+    var: this

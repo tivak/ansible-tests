@@ -1,0 +1,13 @@
+- hosts: localhost
+  roles:
+    - role: role_3
+      vars:
+        test: first
+    - role: role_1
+    - role: role_3
+      vars:
+        test: second
+    - role: role_2
+    - role: role_3
+      vars:
+        test: third
